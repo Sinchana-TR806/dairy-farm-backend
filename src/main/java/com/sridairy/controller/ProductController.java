@@ -13,7 +13,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/products")
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://dairyfarm-management.netlify.app")
 public class ProductController {
 
     @Autowired

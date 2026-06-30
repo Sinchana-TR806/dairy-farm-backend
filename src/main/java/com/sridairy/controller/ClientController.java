@@ -30,6 +30,7 @@ import java.util.Map;
  */
 @RestController
 @RequestMapping("/api/clients")
+@CrossOrigin(origins = "https://dairyfarm-management.netlify.app")
 public class ClientController {
 
     @Autowired

@@ -23,7 +23,8 @@ import java.util.Map;
  * GET  /api/purchases/summary      → today's total litres + revenue (for dashboard)
  */
 @RestController
-@RequestMapping("/api/purchases")
+@RequestMapping("/api/milk-purchases")
+@CrossOrigin(origins = "https://dairyfarm-management.netlify.app")
 public class MilkPurchaseController {
 
     @Autowired

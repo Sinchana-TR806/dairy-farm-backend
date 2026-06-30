@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/invoices")
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://dairyfarm-management.netlify.app")
 public class InvoiceController {
 
     @Autowired

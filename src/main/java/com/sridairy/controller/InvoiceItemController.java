@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/invoiceitems")
-@CrossOrigin("*")
+@RequestMapping("/api/invoice-items")
+@CrossOrigin(origins = "https://dairyfarm-management.netlify.app")
 public class InvoiceItemController {
 
     @Autowired

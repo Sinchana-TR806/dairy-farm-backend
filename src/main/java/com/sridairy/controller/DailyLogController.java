@@ -10,7 +10,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/dailylogs")
-@CrossOrigin("*")
+@CrossOrigin(origins = "https://dairyfarm-management.netlify.app")
 public class DailyLogController {
 
     @Autowired
