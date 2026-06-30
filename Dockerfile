@@ -10,4 +10,4 @@ RUN ./mvnw clean package -DskipTests || mvn clean package -DskipTests
 
 EXPOSE 8080
 
-CMD ["java","-jar","target/dairy-farm-backend-0.0.1-SNAPSHOT.jar"]
+CMD ["java","-jar","target/dairy-farm-erp-1.0.0.jar"]
